@@ -4,7 +4,7 @@
     <ContentTemplate>
 
         <asp:Panel ID="pnlList" runat="server">
-            <Rock:Grid ID="gPageRoutes" runat="server" EmptyDataText="No Page Routes Found" AllowSorting="true">
+            <Rock:Grid ID="gPageRoutes" runat="server" EmptyDataText="No Page Routes Found" AllowSorting="true" RowItemText="page route">
                 <Columns>
                     <asp:BoundField DataField="Route" HeaderText="Route" SortExpression="Route" />
                     <asp:BoundField DataField="Page.Name" HeaderText="Page Name" SortExpression="Page.Name" />
@@ -22,8 +22,10 @@
             <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="failureNotification" />
 
             <fieldset>
-                <legend>Page Route</legend>
-                <Rock:DataDropDownList ID="ddlPageName" runat="server" DataTextField="DropDownListText" DataValueField="Id" />
+                <legend>
+                    <asp:Literal ID="lActionTitle" runat="server" />
+                </legend>
+                <Rock:DataDropDownList ID="ddlPageName" runat="server" DataTextField="DropDownListText" DataValueField="Id" SourceTypeName="Rock.Cms.Page, Rock" PropertyName="Title" />
                 <Rock:DataTextBox ID="tbRoute" runat="server" SourceTypeName="Rock.Cms.PageRoute, Rock" PropertyName="Route" />
             </fieldset>
 

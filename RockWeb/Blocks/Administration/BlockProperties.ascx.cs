@@ -10,7 +10,7 @@ using System.Web.UI.HtmlControls;
 
 namespace RockWeb.Blocks.Administration
 {
-    public partial class BlockProperties : Rock.Web.UI.Block
+    public partial class BlockProperties : Rock.Web.UI.RockBlock
     {
         private Rock.Web.Cache.BlockCache _block = null;
         private string _zoneName = string.Empty;
@@ -79,8 +79,8 @@ namespace RockWeb.Blocks.Administration
                 string script = "window.parent.closeModal()";
                 ScriptManager.RegisterStartupScript( this.Page, this.GetType(), "close-modal", script, true );
             }
-			else
-				Rock.Attribute.Helper.SetErrorIndicators( phAttributes, _block );
+            else
+                Rock.Attribute.Helper.SetErrorIndicators( phAttributes, _block );
 
         }
 
