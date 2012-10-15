@@ -17,7 +17,6 @@ namespace Rock.Crm
 {
     /// <summary>
     /// Campus POCO Entity.
-    /// More comments
     /// </summary>
     [Table( "crmCampus" )]
     public partial class Campus : Model<Campus>
@@ -26,7 +25,7 @@ namespace Rock.Crm
         /// Gets or sets the System.
         /// </summary>
         /// <value>
-        /// System.
+        /// System indicates whether or not the campus is part of the core framework/system.
         /// </value>
         [Required]
         [DataMember]
