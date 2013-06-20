@@ -1,0 +1,124 @@
+﻿.TopMenuGroup
+{
+}
+
+.MenuGroup
+{
+}
+
+/* used when hovering over the item */
+.TopMenuItem
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#85A683;
+	background-color: #FFFFFF;
+	height: 14px;
+	border: solid 1px #CCCCCC;
+	margin: 5px 5px;
+	padding: 0px 8px;
+}
+
+/* used when NOT hovering over the item */
+.TopMenuItemHover
+{
+	font-size:10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color:#85A683;
+	height: 14px;
+	border: solid 1px #CCCCCC;
+	margin: 5px 5px;
+	padding: 0px 8px;
+}
+
+/* used when NOT hovering over the item */
+.TopMenuItemHoverActive
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid #85A683;
+	background: #EDF3EC url(images/ui-bg_flat_100_edf3ec_40x100.png) 50% 50% repeat-x;
+	color: #333 !important;
+	height: 14px;
+	margin: 5px 5px;
+	padding: 0px 8px;
+}
+
+/* used when hovering over the item */
+.TopMenuItemActive
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid #85A683;
+	background: #EDF3EC url(images/ui-bg_flat_100_edf3ec_40x100.png) 50% 50% repeat-x;
+	color: #333 !important;
+	height: 14px;
+	margin: 5px 5px;
+	padding: 0px 8px;
+}
+
+.SubMenuItem
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color:#85A683;
+	font-family: Trebuchet MS,verdana;
+	height: 14px;
+	padding: 0px;
+	margin: 0px;
+	border: solid 1px #CCCCCC;
+}
+
+.SubMenuItemHover
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#85A683;
+	background-color: #FFFFFF;
+	font-family: Trebuchet MS,verdana;
+	height: 14px;
+	border: solid 1px #CCCCCC;
+}
+
+.MenuItem
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color:#85A683;
+	font-family: Trebuchet MS,verdana;
+	height: 14px;
+	padding: 0px;
+	margin: 0px;
+	border: solid 1px #CCCCCC;
+}
+
+.MenuItemHover
+{
+	font-size: 10px;
+	font-weight:500;
+	text-transform: uppercase;
+	cursor: pointer;
+	color:#85A683;
+	background-color: #FFFFFF;
+	font-family: Trebuchet MS,verdana;
+	height: 14px;
+	border: solid 1px #CCCCCC;
+}
+

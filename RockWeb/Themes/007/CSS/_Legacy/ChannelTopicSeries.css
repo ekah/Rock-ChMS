@@ -1,0 +1,70 @@
+﻿/*----------------------------------------------11.03-----------------------------------------------------*/
+
+.columns-holder-area-tv #gallery a.link-prev {
+	display: none;
+}
+
+.columns-holder-area-tv #gallery a.link-next {
+	display: none;
+}
+
+.columns-holder-area-tv #gallery div.list {
+	overflow:hidden;
+}
+
+.columns-holder-area-tv #gallery div ul {
+	position:relative;
+	width:99999px;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box h2 {
+	margin:-3px 0 8px 0;
+	font-size:18px;
+	line-height:21px;
+	color:#666665;
+	font-weight:normal;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder {
+	list-style:none;
+	font-weight:bold;
+	line-height:39px;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder li {
+	display:block;
+	width:530px;
+	height:39px;
+	background:#85A683;
+	padding-left: 16px;
+    padding-right: 5px;
+    float: none;
+	font-size:14px;
+	margin-top:4px;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder li:hover {
+	color:#fff;
+	background:#626262;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder li:last-child
+{
+	margin-bottom: 15px;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder li a {
+    color:#f7f7f7;
+	text-decoration:none;
+}
+
+.columns-holder-area-tv #gallery ul li .white-box .links-holder li a.companion {
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+}

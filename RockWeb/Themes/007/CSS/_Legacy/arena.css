@@ -1,0 +1,110 @@
+﻿/* CSS needed to make certain Arena modules look correct on the site     */
+/* Note: there is a possibility that we might consider moving these into */
+/* our common.css, however this may cause unintended consequences for    */
+/* other stuff therefore I have not gone down that path at this point.   */
+table
+{
+	border-collapse:separate;
+	border-spacing:inherit;
+}
+
+input.refreshButton
+{
+	font-weight: 500;
+	font-size: 9px;
+	height: 22px;
+	padding: 0 5px 3px 5px;
+	margin: 0 0 0 5px;
+}
+
+select
+{
+	margin: .3em;
+	font-size: 14px;
+	padding: 3px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -khtml-border-radius: 5px; 
+    border-radius: 5px;
+	border: 1px solid #BBB;
+}
+/************************/
+/* Prayer Session Stuff */
+/************************/
+span[id$="lblRequestCategory"]
+{
+	font-weight: bold;
+	font-size: 110%;
+}
+
+span[id$="lblRequestDate"]
+{
+	font-style: italic;
+}
+
+/****************************************************/
+/* Tag / Tag Member stuff (such as the COSMO stuff) */
+/****************************************************/
+
+td {
+    line-height: 10px;
+    padding: 4px;
+}
+
+input[type="button"], input[type="submit"], .buttonStyle, .button, .refreshButton  {
+   padding: 2px 5px;
+   font-size: 9px;
+}
+.saveButton {
+    color: #33C;
+}
+ 
+a[id$="lbAdd"]
+{
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid #5f7e5d !important;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-khtml-border-radius: 5px; 
+	border-radius: 5px;
+	background: #85a683 url(images/ui-bg_flat_100_85a683_40x100.png) 50% 50% repeat-x; 
+	font-weight: normal; 
+	color: #f7f7f7 !important;
+	padding: 7px 15px;
+	text-decoration: none !important;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: 5px 0;
+}
+
+/* ...more... added by Nick on 12/3/2012*/
+
+.smallButton 
+{
+    font-size: 9px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #5f7e5d !important; 
+    background: #85a683 url(images/ui-bg_flat_100_85a683_40x100.png) 50% 50% repeat-x; 
+    font-weight: normal; 
+    color: #f7f7f7 !important;
+    padding: 2px 5px;
+    text-decoration: none !important;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 2px 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.smallButton:hover {
+    border: 1px solid #85a683; 
+    background: #edf3ec url(images/ui-bg_flat_100_edf3ec_40x100.png) 50% 50% repeat-x;
+    color: #333333 !important;
+    text-decoration: none;
+    text-decoration: none !important;
+}

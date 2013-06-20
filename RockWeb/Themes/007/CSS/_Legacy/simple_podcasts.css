@@ -1,0 +1,43 @@
+﻿#podcasts h2.content-heading
+{
+	font-size: 60px;
+	color:#85a683;
+	font-weight:lighter;
+	line-height:50px;
+}
+
+#podcasts ul li
+{
+	list-style-type: none;
+	font-size: 14px;
+	padding: 25px 60px 5px 0;
+}
+	
+#podcasts ul li.item h3
+{
+
+	font-size: 20px;
+	color: #85a683;
+	font-weight: normal;
+	font-family:TerminalDosis, Arial, Verdana; 
+}
+	
+#podcasts ul li.item h4
+{
+	font-size: 16px;
+	color: #B0B0B0;
+	font-weight: lighter;
+	padding: 5px 0px 0px 0px;
+}
+		
+#podcasts ul li.item div.description
+{
+	padding: 5px 0;
+}
+	
+#podcasts ul li.item div.enclosure span.property
+{
+	color: #AAAAAA;
+	float: right;
+	padding-left: 20px;
+}
