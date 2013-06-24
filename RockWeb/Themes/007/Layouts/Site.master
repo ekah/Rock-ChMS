@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Themes_007_Layouts_Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title></title>
+    
+    <link rel="stylesheet" href="<%# ResolveUrl("~/Themes/007/Css/bootstrap.min.css") %>"/>
+    <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.common.min.css") %>"/>
+    <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.bootstrap.min.css") %>"/>
+    <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/developer.less") %>"/>
+    <link rel="stylesheet" href="<%# ResolveUrl("~/Themes/007/Css/main.css") %>"/>
+    <asp:ContentPlaceHolder ID="css" runat="server" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder id="main" runat="server"/>
+        <asp:ScriptManager ID="sManager" runat="server"/>
+    </form>
+</body>
+</html>
