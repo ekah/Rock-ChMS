@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Themes_007_Layouts_Site" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="com.CentralAZ.Themes.Layouts.Site" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title></title>
-    
+    <script type="text/javascript" src="<%# ResolveUrl( "~/Themes/007/Scripts/modernizr.min.js" ) %>"></script>
     <link rel="stylesheet" href="<%# ResolveUrl("~/Themes/007/Css/bootstrap.min.css") %>"/>
     <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.common.min.css") %>"/>
     <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.bootstrap.min.css") %>"/>

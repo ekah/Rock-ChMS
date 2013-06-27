@@ -1,2 +1,22 @@
-﻿body {
+﻿@font-face {
+    font-family: 'TerminalDosis';
+    src: url('../Assets/Fonts/TerminalDosis-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArchivoNarrow';
+    src: url('../Assets/Fonts/ArchivoNarrow-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*:focus {
+	outline: none;
+}
+
+#zone-apex {
+    margin: 0px auto;
+    max-width: 940px;
 }

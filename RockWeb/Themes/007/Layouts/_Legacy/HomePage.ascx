@@ -1,4 +1,4 @@
-<%@ Control Language="C#" ClassName="Arena.Templates.Cccev.Double07.HomePage" Inherits="Arena.Portal.PortalControl" %>
+<%--<%@ Control Language="C#" ClassName="Arena.Templates.Cccev.Double07.HomePage" Inherits="Arena.Portal.PortalControl" %>
 <% 
 /**********************************************************************
 * Description:  007 Home Page Template based on the Elegance Theme
@@ -88,4 +88,4 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
 
-</script>
+</script>--%>
