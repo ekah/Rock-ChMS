@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.common.min.css") %>"/>
     <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/Kendo/kendo.bootstrap.min.css") %>"/>
     <link rel="stylesheet" href="<%# ResolveUrl("~/CSS/developer.less") %>"/>
+    <link rel="stylesheet" href="<%# ResolveUrl("~/Themes/RockChMS/Css/rock-theme.less") %>"/>
     <link rel="stylesheet" href="<%# ResolveUrl("~/Themes/007/Css/main.css") %>"/>
     <asp:ContentPlaceHolder ID="css" runat="server" />
 
